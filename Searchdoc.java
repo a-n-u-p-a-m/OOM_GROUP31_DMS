@@ -93,7 +93,7 @@ public class Searchdoc extends JFrame {
 				
 				if(a.equals(new_category)) {
 					// System.out.println(new_topic);
-					JButton btnNewButton = new JButton(array.get(i).topic.val);				
+					JButton btnNewButton = new JButton(array.get(i).category.val);				
 					btnNewButton.addActionListener(new PageActionListener(i));
 					
 							
